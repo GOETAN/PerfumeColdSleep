@@ -23,6 +23,12 @@
             <span class="count" id="count" aria-live="polite"></span>
           </div>
           <input type="search" id="search" placeholder="曲名・作品名で検索" autocomplete="off" aria-label="曲を検索" />
+          <div class="filters" id="filters" role="group" aria-label="作品の種類で絞り込む">
+            <button type="button" class="chip" data-cat="all" aria-pressed="true">すべて</button>
+            <button type="button" class="chip" data-cat="single" aria-pressed="false">シングル</button>
+            <button type="button" class="chip" data-cat="album" aria-pressed="false">アルバム</button>
+            <button type="button" class="chip" data-cat="other" aria-pressed="false">その他</button>
+          </div>
           <ul class="song-list" id="song-list"></ul>
           <p class="hint" id="search-empty" hidden>該当する曲がありません。</p>
         </section>

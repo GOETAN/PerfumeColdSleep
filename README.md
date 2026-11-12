@@ -30,7 +30,7 @@ WIKI_CONTACT="..." python3 scripts/build-songs.py --refresh                  # �
 
 | ファイル | 内容 |
 |---|---|
-| `data/songs.json` | `{ id, title, durationSec, release, sourceArticle }` の配列 |
+| `data/songs.json` | `{ id, title, durationSec, release, releaseType, sourceArticle }` の配列。`releaseType` は `single` / `digital-single` / `ep` / `album` / `best` / `compilation`（画面では シングル / アルバム / その他 の3つにまとめて表示） |
 | `data/duplicates.txt` | 同じ曲名で収録時間が違うもの。まとめずに全部残してある |
 | `data/missing.txt` | 収録時間が取れなかった曲（`durationSec: null`） |
 | `data/merged.txt` | 同じ曲名・同じ収録時間なので1件にまとめたもの |

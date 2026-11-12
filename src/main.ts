@@ -4,7 +4,7 @@ import './style.css';
 import Sortable from 'sortablejs';
 import { renderJacket } from './jacket/render';
 import type { JacketModel, TextBox } from './jacket/label';
-import { formatDuration, matches, normalize, songById, songs } from './songs';
+import { CATEGORY_LABEL, categoryOf, formatDuration, matches, normalize, songById, songs, type Category, type Song } from './songs';
 import { REQUIRED, defaultTitle, loadState, saveState, totalOf } from './state';
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -12,6 +12,7 @@ const el = {
   count: $('count'),
   barCount: $('bar-count'),
   search: $<HTMLInputElement>('search'),
+  filters: $('filters'),
   songList: $<HTMLUListElement>('song-list'),
   searchEmpty: $('search-empty'),
   selectedList: $<HTMLOListElement>('selected-list'),
@@ -52,6 +53,20 @@ function buildModel(): JacketModel {
   };
 }
 
+/** 「[シングル] 4:09 ・ 作品名」の1行を作る */
+function metaLine(s: Song): HTMLSpanElement {
+  const m = document.createElement('span');
+  m.className = 'song-meta';
+  const cat = categoryOf(s);
+  const badge = document.createElement('span');
+  badge.className = `badge badge-${cat}`;
+  badge.textContent = CATEGORY_LABEL[cat];
+  m.append(badge, `${formatDuration(s.durationSec)} ・ ${s.release}`);
+  return m;
+}
+
+let filter: Category | 'all' = 'all';
+
 // ---- 曲一覧 ---------------------------------------------------------------
 const songButtons = new Map<string, HTMLButtonElement>();
 
@@ -66,10 +81,7 @@ function buildSongList() {
     const t = document.createElement('span');
     t.className = 'song-title';
     t.textContent = s.title;
-    const m = document.createElement('span');
-    m.className = 'song-meta';
-    m.textContent = `${formatDuration(s.durationSec)} ・ ${s.release}`;
-    b.append(t, m);
+    b.append(t, metaLine(s));
     li.append(b);
     frag.append(li);
     songButtons.set(s.id, b);
@@ -85,11 +97,19 @@ function applySearch() {
   const q = normalize(el.search.value);
   let shown = 0;
   for (const s of songs) {
-    const hit = q === '' || matches(s, q);
+    const hit = (filter === 'all' || categoryOf(s) === filter) && (q === '' || matches(s, q));
     songButtons.get(s.id)!.parentElement!.hidden = !hit;
     if (hit) shown++;
   }
   el.searchEmpty.hidden = shown > 0;
+}
+
+function setFilter(next: Category | 'all') {
+  filter = next;
+  for (const chip of el.filters.querySelectorAll<HTMLButtonElement>('.chip')) {
+    chip.setAttribute('aria-pressed', String(chip.dataset.cat === next));
+  }
+  applySearch();
 }
 
 function toggle(id: string) {
@@ -116,10 +136,7 @@ function buildSelectedList() {
       const t = document.createElement('span');
       t.className = 'song-title';
       t.textContent = `${String(i + 1).padStart(2, '0')}  ${s.title}`;
-      const m = document.createElement('span');
-      m.className = 'song-meta';
-      m.textContent = `${formatDuration(s.durationSec)} ・ ${s.release}`;
-      body.append(t, m);
+      body.append(t, metaLine(s));
       const mk = (label: string, text: string, act: string, disabled = false) => {
         const b = document.createElement('button');
         b.type = 'button';
@@ -185,7 +202,7 @@ el.reset.addEventListener('click', () => {
   el.name.value = '';
   el.title.value = state.title;
   el.search.value = '';
-  applySearch();
+  setFilter('all');
   update();
   window.scrollTo({ top: 0 });
 });
@@ -303,6 +320,10 @@ el.name.value = state.name;
 el.title.value = state.title;
 buildSongList();
 el.search.addEventListener('input', applySearch);
+el.filters.addEventListener('click', (e) => {
+  const chip = (e.target as HTMLElement).closest<HTMLButtonElement>('.chip');
+  if (chip?.dataset.cat) setFilter(chip.dataset.cat as Category | 'all');
+});
 update();
 
 // 自動テスト用: 最後に描いた文字の配置

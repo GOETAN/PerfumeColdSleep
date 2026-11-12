@@ -125,6 +125,19 @@ try {
   const hits = await page.$$eval('#song-list li:not([hidden]) .song-title', (els) => els.map((e) => e.textContent));
   check('ひらがなでカタカナの曲名を検索できる', hits.length > 0 && hits.length < 10 && hits.some((t) => t === 'ポリリズム'), hits.join(' / '));
 
+  // 種類の絞り込みとバッジ
+  await page.fill('#search', '');
+  const visible = () => page.$$eval('#song-list li:not([hidden]) .badge', (els) => els.map((e) => e.textContent));
+  const all = await visible();
+  const counts = {};
+  for (const cat of ['single', 'album', 'other']) {
+    await page.click(`.chip[data-cat="${cat}"]`);
+    const v = await visible();
+    counts[cat] = v.length;
+    if (new Set(v).size > 1) counts.mixed = true;
+  }
+  check('種類で絞り込める（3分類の合計 = 全曲、混在なし）', all.length === songs.length && !counts.mixed && counts.single + counts.album + counts.other === songs.length && counts.single > 0 && counts.album > 0 && counts.other > 0, JSON.stringify(counts));
+
   // 最初からやり直す: キャンセルなら何も変わらず、OK なら全部消えてリロード後も戻らない
   page.once('dialog', (d) => d.dismiss());
   await page.click('#reset');
