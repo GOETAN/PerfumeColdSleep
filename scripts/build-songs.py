@@ -10,6 +10,7 @@ MediaWiki API (action=parse, prop=wikitext) だけを使い、HTML は取得し�
     python3 scripts/build-songs.py --contact "https://example.com/about"
 
 出力 (data/):
+    manual-durations.json（入力）時間が取れなかった曲に手で与える時間
     songs.json      [{ id, title, durationSec, release, sourceArticle }]
     duplicates.txt  同じ曲名で収録時間が違うもの（まとめていない。人が判断する）
     missing.txt     収録時間が取れなかった曲 (durationSec: null)
@@ -409,6 +410,19 @@ def main() -> None:
         else:
             tracks.append(Track(rel.title, None, rel.title, got_list_title, rel.date, rel.order, "一覧ページ（記事なし）"))
             unlinked.append(f"{rel.kind}\t{rel.date}\t{rel.title}\t表題曲のみ時間なしで収録")
+
+    # Wikipedia から時間が取れなかった曲に、人が調べた時間を当てる (data/manual-durations.json)。
+    # 取得できた時間を上書きすることはしない。
+    manual_path = out / "manual-durations.json"
+    manual_used = []
+    if manual_path.exists():
+        manual = {norm_title(m["title"]): int(m["durationSec"]) for m in json.loads(manual_path.read_text(encoding="utf-8"))}
+        for t in tracks:
+            if t.durationSec is None and norm_title(t.title) in manual:
+                t.durationSec = manual.pop(norm_title(t.title))
+                manual_used.append(t.title)
+        for left in manual:
+            print(f"  manual-durations.json: 当てはまる曲が無い: {left}", file=sys.stderr)
 
     # 同じ曲名・同じ時間 → 1件にまとめる（発売日が早い方を残す）
     tracks.sort(key=lambda t: (t.date or "9999", t.order))

@@ -38,6 +38,9 @@ WIKI_CONTACT="..." python3 scripts/build-songs.py --refresh                  # �
 | `data/unlinked.txt` | 一覧にあるが記事が無い作品と、その扱い（表題曲のみ時間なしで収録、など） |
 | `data/unparsed.txt` | 記事はあるが収録曲を取り出せなかった作品 |
 
+Wikipedia から収録時間が取れなかった曲には、`data/manual-durations.json` に書いた時間を当てます
+（Wikipedia 由来ではなく手入力の値。取得できた時間は上書きしません）。
+
 重複のうち不要な方を外すには、`data/exclude-ids.txt` に id を1行ずつ書いて再実行します（通信なし）。
 
 ## テスト
