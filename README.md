@@ -35,7 +35,7 @@ WIKI_CONTACT="..." python3 scripts/build-songs.py --refresh                  # �
 | `data/missing.txt` | 収録時間が取れなかった曲（`durationSec: null`） |
 | `data/merged.txt` | 同じ曲名・同じ収録時間なので1件にまとめたもの |
 | `data/excluded.txt` | 入れなかったもの（映像特典・インストゥルメンタル・トーク音源） |
-| `data/unlinked.txt` | 一覧にあるが記事が無く取得できなかった作品 |
+| `data/unlinked.txt` | 一覧にあるが記事が無い作品と、その扱い（表題曲のみ時間なしで収録、など） |
 | `data/unparsed.txt` | 記事はあるが収録曲を取り出せなかった作品 |
 
 重複のうち不要な方を外すには、`data/exclude-ids.txt` に id を1行ずつ書いて再実行します（通信なし）。

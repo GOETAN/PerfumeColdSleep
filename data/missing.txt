@@ -1,4 +1,9 @@
 # 収録時間が取れなかった曲 (durationSec: null)。id / 曲名 / 記事 / 場所
-# 0 件
+# 6 件
 
-
+75c36b932d	OMAJINAI★ペロリ	Perfumeの作品	一覧ページ（記事なし）
+0d66ed7acc	彼氏募集中	Perfumeの作品	一覧ページ（記事なし）
+7a8c83b216	Lovefool	Perfumeの作品	一覧ページ（記事なし）
+e44d2dc304	I Don't Understand You	Perfumeの作品	一覧ページ（記事なし）
+3f7d9dd682	ふめつのあなた	Perfumeの作品	一覧ページ（記事なし）
+c90e77b2f3	コールドスリープ	Perfumeの作品	一覧ページ（記事なし）

@@ -15,7 +15,7 @@ MediaWiki API (action=parse, prop=wikitext) だけを使い、HTML は取得し�
     missing.txt     収録時間が取れなかった曲 (durationSec: null)
     merged.txt      同じ曲名・同じ収録時間なので1件にまとめたもの
     excluded.txt    除外したもの（映像特典・インストゥルメンタル・exclude-ids.txt 指定）
-    unlinked.txt    一覧にあるが記事が無く取得できなかった作品
+    unlinked.txt    一覧にあるが記事が無い作品と、その扱い
     unparsed.txt    記事はあるが収録曲を1曲も取り出せなかった作品
 
 data/exclude-ids.txt に id を1行ずつ書いて再実行すると、その曲を songs.json から外す
@@ -371,14 +371,16 @@ def main() -> None:
     got = fetch.wikitext(args.list_page)
     if not got:
         raise SystemExit(f"一覧ページが見つかりません: {args.list_page}")
+    got_list_title = got[0]
     releases = parse_releases(got[1])
 
     unlinked, unparsed, excluded = [], [], []
     tracks: list[Track] = []
     seen_articles: set[str] = set()
+    no_article: list[Release] = []
     for rel in releases:
         if not rel.article:
-            unlinked.append(f"{rel.kind}\t{rel.date}\t{rel.title}")
+            no_article.append(rel)
             continue
         if rel.article in SKIP_ARTICLES or rel.article in seen_articles:
             continue
@@ -394,6 +396,19 @@ def main() -> None:
             unparsed.append(f"{rel.kind}\t{article}\t{why}")
         tracks.extend(found)
         print(f"{rel.kind:15s} {rel.date:10s} {article}: {len(found)} 曲", file=sys.stderr)
+
+    # 記事が無いシングルは、表題曲だけを一覧ページから入れる。収録時間は分からないので null。
+    # 同じ曲名が他の作品から取れていれば、そちら（時間あり）を使い、null の重複は作らない。
+    # カップリング曲は一覧ページに載っていないので入らない。
+    known = {norm_title(t.title) for t in tracks}
+    for rel in no_article:
+        if rel.kind not in ("single", "digital-single"):
+            unlinked.append(f"{rel.kind}\t{rel.date}\t{rel.title}\t曲ではないので未収録")
+        elif norm_title(rel.title) in known:
+            unlinked.append(f"{rel.kind}\t{rel.date}\t{rel.title}\t他の作品の記事から取得済み")
+        else:
+            tracks.append(Track(rel.title, None, rel.title, got_list_title, rel.date, rel.order, "一覧ページ（記事なし）"))
+            unlinked.append(f"{rel.kind}\t{rel.date}\t{rel.title}\t表題曲のみ時間なしで収録")
 
     # 同じ曲名・同じ時間 → 1件にまとめる（発売日が早い方を残す）
     tracks.sort(key=lambda t: (t.date or "9999", t.order))
@@ -450,7 +465,7 @@ def main() -> None:
     report("missing.txt", "収録時間が取れなかった曲 (durationSec: null)。id / 曲名 / 記事 / 場所", missing)
     report("merged.txt", "同じ曲名・同じ収録時間なので1件にまとめたもの", merged_lines)
     report("excluded.txt", "songs.json に入れなかったもの", excluded)
-    report("unlinked.txt", "一覧にあるが記事リンクが無く取得していない作品。種別 / 日付 / 題", unlinked)
+    report("unlinked.txt", "一覧にあるが記事が無い作品。種別 / 日付 / 題 / 扱い", unlinked)
     report("unparsed.txt", "記事はあるが収録曲を取り出せなかった作品", unparsed)
 
     print(

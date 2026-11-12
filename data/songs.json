@@ -1,5 +1,19 @@
 [
  {
+  "id": "75c36b932d",
+  "title": "OMAJINAI★ペロリ",
+  "durationSec": null,
+  "release": "OMAJINAI★ペロリ",
+  "sourceArticle": "Perfumeの作品"
+ },
+ {
+  "id": "0d66ed7acc",
+  "title": "彼氏募集中",
+  "durationSec": null,
+  "release": "彼氏募集中",
+  "sourceArticle": "Perfumeの作品"
+ },
+ {
   "id": "503cd6429b",
   "title": "スウィートドーナッツ",
   "durationSec": 256,
@@ -425,6 +439,13 @@
   "durationSec": 188,
   "release": "不自然なガール/ナチュラルに恋して",
   "sourceArticle": "不自然なガール/ナチュラルに恋して"
+ },
+ {
+  "id": "7a8c83b216",
+  "title": "Lovefool",
+  "durationSec": null,
+  "release": "Lovefool",
+  "sourceArticle": "Perfumeの作品"
  },
  {
   "id": "156fb84e43",
@@ -987,6 +1008,13 @@
   "sourceArticle": "COSMIC EXPLORER"
  },
  {
+  "id": "e44d2dc304",
+  "title": "I Don't Understand You",
+  "durationSec": null,
+  "release": "I Don't Understand You",
+  "sourceArticle": "Perfumeの作品"
+ },
+ {
   "id": "f7d987f41e",
   "title": "TOKYO GIRL",
   "durationSec": 267,
@@ -1440,5 +1468,19 @@
   "durationSec": 252,
   "release": "ネビュラロマンス 後篇",
   "sourceArticle": "ネビュラロマンス 後篇"
+ },
+ {
+  "id": "3f7d9dd682",
+  "title": "ふめつのあなた",
+  "durationSec": null,
+  "release": "ふめつのあなた",
+  "sourceArticle": "Perfumeの作品"
+ },
+ {
+  "id": "c90e77b2f3",
+  "title": "コールドスリープ",
+  "durationSec": null,
+  "release": "コールドスリープ",
+  "sourceArticle": "Perfumeの作品"
  }
 ]
