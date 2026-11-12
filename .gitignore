@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.cache/
+tests/out/
+# 参考画像は公式アートワークのため公開リポジトリに含めない
+ref/

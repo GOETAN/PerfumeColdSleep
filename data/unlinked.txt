@@ -1,0 +1,18 @@
+# 一覧にあるが記事リンクが無く取得していない作品。種別 / 日付 / 題
+# 15 件
+
+single	2002-03-21	OMAJINAI★ペロリ
+single	2002-11-01	彼氏募集中
+digital-single	2006-12-20	Twinkle Snow Powdery Snow
+digital-single	2010-06-08	Lovefool
+digital-single	2011-07-13	GLITTER
+digital-single	2012-03-14	ポイント
+digital-single	2012-06-06	Hurly Burly
+digital-single	2013-08-06	Party Maker
+digital-single	2013-09-04	1mm
+digital-single	2014-05-21	Hold Your Hand
+digital-single	2016-07-20	I Don't Understand You
+digital-single	2025-07-10	巡ループ
+digital-single	2025-12-27	ふめつのあなた
+digital-single	2026-05-15	コールドスリープ
+compilation	2026-12-23	Favorites (Selected by Perfume) / コールドスリープ

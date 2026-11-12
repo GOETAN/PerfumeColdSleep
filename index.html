@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="お気に入りの13曲を選んで、CDジャケット風の画像を作る非公式ファンメイドツール" />
+    <title>My Favorites 13 — 非公式ファンメイド</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>My Favorites 13</h1>
+      <p>お気に入りの13曲を選んで、ジャケット風の画像を作る。<strong>非公式のファンメイドツールです。</strong></p>
+    </header>
+
+    <main class="layout">
+      <div class="col-edit">
+        <section class="panel" id="pick">
+          <div class="panel-head">
+            <h2>1. 曲を選ぶ</h2>
+            <span class="count" id="count" aria-live="polite"></span>
+          </div>
+          <input type="search" id="search" placeholder="曲名・作品名で検索" autocomplete="off" aria-label="曲を検索" />
+          <ul class="song-list" id="song-list"></ul>
+          <p class="hint" id="search-empty" hidden>該当する曲がありません。</p>
+        </section>
+
+        <section class="panel" id="order">
+          <div class="panel-head">
+            <h2>2. 並べ替える</h2>
+            <button type="button" class="link" id="clear">すべて外す</button>
+          </div>
+          <p class="hint" id="order-empty">まだ選んでいません。</p>
+          <ol class="selected-list" id="selected-list"></ol>
+        </section>
+
+        <section class="panel" id="meta">
+          <h2>3. 名前とタイトル</h2>
+          <label>名前
+            <input type="text" id="name" maxlength="24" placeholder="〇〇" autocomplete="nickname" />
+          </label>
+          <label>タイトル
+            <input type="text" id="title" maxlength="60" />
+          </label>
+          <button type="button" class="link" id="title-reset" hidden>タイトルを初期値に戻す</button>
+        </section>
+      </div>
+
+      <section class="panel col-preview" id="preview">
+        <div class="panel-head">
+          <h2>4. プレビュー</h2>
+          <span class="total" id="total"></span>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="jacket" width="2048" height="1776" aria-label="ジャケット画像のプレビュー"></canvas>
+          <p class="canvas-status" id="canvas-status">準備中…</p>
+        </div>
+        <p class="hint" id="export-hint" aria-live="polite"></p>
+        <div class="actions">
+          <button type="button" class="primary" id="download" disabled>PNG をダウンロード</button>
+          <button type="button" id="share" hidden>共有・保存</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>このサイトは個人が作成した非公式のファンメイドツールで、アーティスト・所属事務所・レーベルとは関係ありません。公式のロゴ・画像・音源は使用していません。</p>
+      <p>曲名・収録時間は <a href="https://ja.wikipedia.org/wiki/Perfume%E3%81%AE%E4%BD%9C%E5%93%81" rel="noopener">Wikipedia 日本語版</a>の各作品記事（CC BY-SA 4.0）をもとにしています。フォント: M PLUS 1 Code (SIL Open Font License 1.1)。</p>
+    </footer>
+
+    <div class="status-bar" id="status-bar">
+      <span id="bar-count"></span>
+      <a href="#preview">プレビューへ</a>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

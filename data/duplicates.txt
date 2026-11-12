@@ -1,0 +1,166 @@
+# 同じ曲名で収録時間が違うもの。不要な方の id を exclude-ids.txt に書いて再実行する
+# 39 件
+
+スウィートドーナッツ
+  503cd6429b   4:16  スウィートドーナッツ  (スウィートドーナッツ / CD（初回限定盤・通常盤共通）)
+  4c7aad32f6   2:57  Perfume〜Complete Best〜  (Perfume〜Complete Best〜 / 収録曲 > CD)
+
+引力
+  667812b0b1   3:33  ビタミンドロップ  (ビタミンドロップ / 概要 > 収録曲)
+  eb94335cec   3:34  Perfume〜Complete Best〜  (Perfume〜Complete Best〜 / 収録曲 > CD)
+
+ファンデーション
+  56471ffefd   3:34  リニアモーターガール  (リニアモーターガール / 収録曲)
+  2855b0f7e6   3:57  Perfume〜Complete Best〜  (Perfume〜Complete Best〜 / 収録曲 > CD)
+
+Perfume
+  7b0f223de5   5:15  コンピューターシティ  (コンピューターシティ / シングル収録内容)
+  aafb19d0ea   5:17  Perfume〜Complete Best〜  (Perfume〜Complete Best〜 / 収録曲 > CD)
+
+エレクトロ・ワールド
+  061dfb4d48   3:54  エレクトロ・ワールド  (エレクトロ・ワールド / 収録曲)
+  b1b0d9ae41   4:20  Perfume〜Complete Best〜  (Perfume〜Complete Best〜 / 収録曲 > CD)
+  88e6e64147   3:55  Perfume The Best “P Cubed”  (Perfume The Best “P Cubed” / 収録曲 > CD > Disc-1)
+
+wonder2
+  d38b7d23f1   3:40  エレクトロ・ワールド  (エレクトロ・ワールド / 収録曲)
+  31e2aabe1f   3:53  Perfume〜Complete Best〜  (Perfume〜Complete Best〜 / 収録曲 > CD)
+
+Twinkle Snow Powdery Snow
+  ab2669b7f6   3:50  ファン・サーヴィス［sweet］  (ファン・サーヴィス［sweet］ / 収録曲 > CD)
+  31305b3f4d   3:49  GAME  (GAME (Perfumeのアルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+
+ポリリズム
+  30bc2e69ad   4:10  ポリリズム  (ポリリズム (Perfumeの曲) / 収録曲 > CD / 初回限定盤・通常盤)
+  86326fc642   4:09  GAME  (GAME (Perfumeのアルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+
+Baby cruising Love
+  f4595dc228   4:42  Baby cruising Love/マカロニ  (Baby cruising Love/マカロニ / 収録曲 > CD / 初回限定盤・通常盤)
+  dd4d5e3284   4:41  GAME  (GAME (Perfumeのアルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+
+マカロニ
+  598b511f23   4:40  Baby cruising Love/マカロニ  (Baby cruising Love/マカロニ / 収録曲 > CD / 初回限定盤・通常盤)
+  4f9d2f95fc   4:39  GAME  (GAME (Perfumeのアルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+  34b896bbc7   4:37  Perfume The Best “P Cubed”  (Perfume The Best “P Cubed” / 収録曲 > CD > Disc-1)
+
+GAME
+  fd562cb8f2   5:06  GAME  (GAME (Perfumeのアルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+  bd83c297ed   5:07  Perfume The Best “P Cubed”  (Perfume The Best “P Cubed” / 収録曲 > CD > Disc-1)
+
+Butterfly
+  220089962c   5:41  GAME  (GAME (Perfumeのアルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+  c776fbb1ed   5:42  Perfume Global Compilation "LOVE THE WORLD"  (Perfume Global Compilation "LOVE THE WORLD" / 収録曲 / CD (初回限定盤、通常盤))
+
+love the world
+  7c9ad8a70a   4:35  love the world  (Love the world / 収録曲 > CD / 初回限定盤・通常盤)
+  3fcf21feab   4:32  ⊿  (⊿ (アルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+  730584eaf0   4:33  Perfume Global Compilation "LOVE THE WORLD"  (Perfume Global Compilation "LOVE THE WORLD" / 収録曲 / CD (初回限定盤、通常盤))
+  9159fa3c72   4:38  Perfume The Best “P Cubed”  (Perfume The Best “P Cubed” / 収録曲 > CD > Disc-1)
+
+Dream Fighter
+  88389f4060   4:54  Dream Fighter  (Dream Fighter / 収録曲 > CD / 初回限定盤・通常盤)
+  14c72a4da2   4:53  ⊿  (⊿ (アルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+
+ワンルーム・ディスコ
+  2a93a554e1   5:06  ワンルーム・ディスコ  (ワンルーム・ディスコ / 収録曲 > CD / 初回限定盤・通常盤)
+  1031c67b5b   5:09  ⊿  (⊿ (アルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+
+NIGHT FLIGHT
+  7da71f69ed   5:21  ⊿  (⊿ (アルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+  84a8616a23   5:19  Perfume Global Compilation "LOVE THE WORLD"  (Perfume Global Compilation "LOVE THE WORLD" / 収録曲 / CD (初回限定盤、通常盤))
+
+575
+  10dfe14841   4:27  VOICE  (VOICE (Perfumeの曲) / 収録曲 > CD / 初回限定盤・通常盤)
+  f9942ee7bd   4:24  JPN  (JPN (アルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+
+ねぇ
+  c4886204b2   4:26  ねぇ  (ねぇ (Perfumeの曲) / 収録曲 > CD / 初回限定盤・通常盤)
+  80fe56c18a   4:27  JPN  (JPN (アルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+
+スパイス
+  95655eb8de   3:53  スパイス  (スパイス (Perfumeの曲) / 収録曲 > CD / 初回限定盤・通常盤)
+  e72930ccb6   3:52  JPN  (JPN (アルバム) / 収録曲 > CD / 初回限定盤、通常盤)
+
+GLITTER
+  912142fe8f   5:10  スパイス  (スパイス (Perfumeの曲) / 収録曲 > CD / 初回限定盤・通常盤)
+  442a6ab76a   5:05  Perfume Global Compilation "LOVE THE WORLD"  (Perfume Global Compilation "LOVE THE WORLD" / 収録曲 / CD (初回限定盤、通常盤))
+
+ポイント
+  456b7963ce   3:48  Spending all my time  (Spending all my time / 解説 > CD / 初回限定盤・通常盤)
+  caceaf6641   3:47  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+  9bb9905d03   3:49  LEVEL3  (LEVEL3 / 収録曲 > アナログ盤 / Side 3)
+
+未来のミュージアム
+  3ab5237594   3:22  未来のミュージアム  (未来のミュージアム / 収録曲 > CD / 初回限定盤・通常盤)
+  88b4d11931   3:20  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+
+だいじょばない
+  4e2aa571f8   3:05  未来のミュージアム  (未来のミュージアム / 収録曲 > CD / 初回限定盤・通常盤)
+  82d46de6f8   3:03  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+  458521e739   3:06  LEVEL3  (LEVEL3 / 収録曲 > アナログ盤 / Side 3)
+
+Handy Man
+  384ae99ca3   4:08  Magic of Love  (Magic of Love (Perfumeの曲) / 収録曲 > CD / 初回限定盤・通常盤)
+  0df25b3dab   4:05  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+  36bccd7156   4:07  LEVEL3  (LEVEL3 / 収録曲 > アナログ盤 / Side 3)
+
+Enter the Sphere
+  8b1fa1f9d0   3:35  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+  bed0c9a11b   3:36  LEVEL3  (LEVEL3 / 収録曲 > アナログ盤 / Side 1)
+
+Magic of Love (Album-mix)
+  28e1a8fd29   4:16  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+  7b98a96d60   4:15  Perfume The Best “P Cubed”  (Perfume The Best “P Cubed” / 収録曲 > CD > Disc-2)
+
+Sleeping Beauty
+  952986c0d9   4:52  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+  dce15b11f9   4:51  LEVEL3  (LEVEL3 / 収録曲 > アナログ盤 / Side 4)
+
+Spending all my time (Album-mix)
+  19cd680f4c   4:01  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+  5219a07ad4   4:02  LEVEL3  (LEVEL3 / 収録曲 > アナログ盤 / Side 4)
+
+Dream Land
+  37fefd47c3   5:17  LEVEL3  (LEVEL3 / 収録曲 > CD / 初回限定盤、通常盤)
+  712f006167   5:14  LEVEL3  (LEVEL3 / 収録曲 > アナログ盤 / Side 4)
+
+宝石の雨
+  1b0b5b641e   3:58  TOKYO GIRL  (TOKYO GIRL (Perfumeの曲) / 収録曲 / 初回限定盤・通常盤)
+  4a83368676   3:57  Future Pop  (Future Pop / 収録曲)
+
+Everyday
+  d988f22efb   3:46  If you wanna  (If you wanna / CD > 収録曲 / 完全生産限定盤・初回限定盤・通常盤共通)
+  97a584a8fb   3:47  Future Pop  (Future Pop / 収録曲)
+
+無限未来
+  04aaa6db31   3:43  無限未来  (無限未来 / 収録トラック > 通常盤 / CD)
+  5eecb9609c   3:41  Future Pop  (Future Pop / 収録曲)
+
+FUSION
+  96aef5fcd2   4:32  無限未来  (無限未来 / 収録トラック > 通常盤 / CD)
+  4a3f456ef8   4:33  Perfume The Best “P Cubed”  (Perfume The Best “P Cubed” / 収録曲 > CD > Disc-3)
+
+Time Warp
+  8f55fa2f69   2:55  Time Warp  (Time Warp / 収録内容 / CD（完全生産限定盤・初回限定盤・通常盤共通）)
+  c5975858ae   2:52  PLASMA  (PLASMA (Perfumeのアルバム) / 収録曲 / CD)
+
+再生
+  6741cbda74   4:44  Time Warp  (Time Warp / 収録内容 / CD（完全生産限定盤・初回限定盤・通常盤共通）)
+  dbe5877f6e   4:43  PLASMA  (PLASMA (Perfumeのアルバム) / 収録曲 / CD)
+
+ポリゴンウェイヴ
+  891521df96   3:05  ポリゴンウェイヴ EP  (ポリゴンウェイヴ EP / 収録内容 / CD)
+  dadbed742f   4:33  PLASMA  (PLASMA (Perfumeのアルバム) / 収録曲 / CD)
+
+∞ループ
+  242753fb2a   4:17  ポリゴンウェイヴ EP  (ポリゴンウェイヴ EP / 収録内容 / CD)
+  aa9eb92443   4:18  PLASMA  (PLASMA (Perfumeのアルバム) / 収録曲 / CD)
+
+すみっコディスコ
+  9afc477a0e   3:27  すみっコディスコ  (すみっコディスコ / 収録曲 / デジタル・ダウンロード)
+  2b367b41ba   3:55  すみっコディスコ  (すみっコディスコ / 収録曲 / デジタル・ダウンロード)
+
+The Light
+  fd8ddfc307   3:35  The Light  (The Light (Perfumeの曲) / 収録曲 / デジタル・ダウンロード)
+  404a5ea0e0   3:34  ネビュラロマンス 前篇  (ネビュラロマンス 前篇 / 収録曲 / CD)
+

@@ -1,0 +1,10 @@
+# 記事はあるが収録曲を取り出せなかった作品
+# 7 件
+
+digital-single	NIGHT FLIGHT (Perfumeの曲)	収録曲の節が無い（曲単体の記事）
+digital-single	FLASH (Perfumeの曲)	収録曲の書式を解析できない
+digital-single	ナナナナナイロ	収録曲の節が無い（曲単体の記事）
+digital-single	再生 (曲)	収録曲の節が無い（曲単体の記事）
+digital-single	ポリゴンウェイヴ	収録曲の書式を解析できない
+digital-single	Spinning World (Perfumeの曲)	収録曲の節が無い（曲単体の記事）
+digital-single	ネビュラロマンス	収録曲の書式を解析できない

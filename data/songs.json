@@ -1,0 +1,1444 @@
+[
+ {
+  "id": "503cd6429b",
+  "title": "スウィートドーナッツ",
+  "durationSec": 256,
+  "release": "スウィートドーナッツ",
+  "sourceArticle": "スウィートドーナッツ"
+ },
+ {
+  "id": "b469165534",
+  "title": "シークレットメッセージ",
+  "durationSec": 170,
+  "release": "スウィートドーナッツ",
+  "sourceArticle": "スウィートドーナッツ"
+ },
+ {
+  "id": "b46da9a856",
+  "title": "ジェニーはご機嫌ななめ",
+  "durationSec": 202,
+  "release": "スウィートドーナッツ",
+  "sourceArticle": "スウィートドーナッツ"
+ },
+ {
+  "id": "e6d4e0a6f9",
+  "title": "モノクロームエフェクト",
+  "durationSec": 257,
+  "release": "モノクロームエフェクト",
+  "sourceArticle": "モノクロームエフェクト"
+ },
+ {
+  "id": "5263c25b2a",
+  "title": "エレベーター",
+  "durationSec": 170,
+  "release": "モノクロームエフェクト",
+  "sourceArticle": "モノクロームエフェクト"
+ },
+ {
+  "id": "96ec8e2cc3",
+  "title": "おいしいレシピ",
+  "durationSec": 213,
+  "release": "モノクロームエフェクト",
+  "sourceArticle": "モノクロームエフェクト"
+ },
+ {
+  "id": "3c12cb1a7c",
+  "title": "ビタミンドロップ",
+  "durationSec": 295,
+  "release": "ビタミンドロップ",
+  "sourceArticle": "ビタミンドロップ"
+ },
+ {
+  "id": "667812b0b1",
+  "title": "引力",
+  "durationSec": 213,
+  "release": "ビタミンドロップ",
+  "sourceArticle": "ビタミンドロップ"
+ },
+ {
+  "id": "79a464a244",
+  "title": "リニアモーターガール",
+  "durationSec": 246,
+  "release": "リニアモーターガール",
+  "sourceArticle": "リニアモーターガール"
+ },
+ {
+  "id": "56471ffefd",
+  "title": "ファンデーション",
+  "durationSec": 214,
+  "release": "リニアモーターガール",
+  "sourceArticle": "リニアモーターガール"
+ },
+ {
+  "id": "fe250f1ee8",
+  "title": "コンピュータードライビング",
+  "durationSec": 263,
+  "release": "リニアモーターガール",
+  "sourceArticle": "リニアモーターガール"
+ },
+ {
+  "id": "ecc6052583",
+  "title": "コンピューターシティ",
+  "durationSec": 284,
+  "release": "コンピューターシティ",
+  "sourceArticle": "コンピューターシティ"
+ },
+ {
+  "id": "7b0f223de5",
+  "title": "Perfume",
+  "durationSec": 315,
+  "release": "コンピューターシティ",
+  "sourceArticle": "コンピューターシティ"
+ },
+ {
+  "id": "061dfb4d48",
+  "title": "エレクトロ・ワールド",
+  "durationSec": 234,
+  "release": "エレクトロ・ワールド",
+  "sourceArticle": "エレクトロ・ワールド"
+ },
+ {
+  "id": "d38b7d23f1",
+  "title": "wonder2",
+  "durationSec": 220,
+  "release": "エレクトロ・ワールド",
+  "sourceArticle": "エレクトロ・ワールド"
+ },
+ {
+  "id": "7513647489",
+  "title": "パーフェクトスター・パーフェクトスタイル",
+  "durationSec": 256,
+  "release": "Perfume〜Complete Best〜",
+  "sourceArticle": "Perfume〜Complete Best〜"
+ },
+ {
+  "id": "b1b0d9ae41",
+  "title": "エレクトロ・ワールド",
+  "durationSec": 260,
+  "release": "Perfume〜Complete Best〜",
+  "sourceArticle": "Perfume〜Complete Best〜"
+ },
+ {
+  "id": "eb94335cec",
+  "title": "引力",
+  "durationSec": 214,
+  "release": "Perfume〜Complete Best〜",
+  "sourceArticle": "Perfume〜Complete Best〜"
+ },
+ {
+  "id": "4c7aad32f6",
+  "title": "スウィートドーナッツ",
+  "durationSec": 177,
+  "release": "Perfume〜Complete Best〜",
+  "sourceArticle": "Perfume〜Complete Best〜"
+ },
+ {
+  "id": "2855b0f7e6",
+  "title": "ファンデーション",
+  "durationSec": 237,
+  "release": "Perfume〜Complete Best〜",
+  "sourceArticle": "Perfume〜Complete Best〜"
+ },
+ {
+  "id": "aafb19d0ea",
+  "title": "Perfume",
+  "durationSec": 317,
+  "release": "Perfume〜Complete Best〜",
+  "sourceArticle": "Perfume〜Complete Best〜"
+ },
+ {
+  "id": "31e2aabe1f",
+  "title": "wonder2",
+  "durationSec": 233,
+  "release": "Perfume〜Complete Best〜",
+  "sourceArticle": "Perfume〜Complete Best〜"
+ },
+ {
+  "id": "e8d1ce6c8c",
+  "title": "チョコレイト・ディスコ",
+  "durationSec": 226,
+  "release": "ファン・サーヴィス［sweet］",
+  "sourceArticle": "ファン・サーヴィス［sweet］"
+ },
+ {
+  "id": "ab2669b7f6",
+  "title": "Twinkle Snow Powdery Snow",
+  "durationSec": 230,
+  "release": "ファン・サーヴィス［sweet］",
+  "sourceArticle": "ファン・サーヴィス［sweet］"
+ },
+ {
+  "id": "30bc2e69ad",
+  "title": "ポリリズム",
+  "durationSec": 250,
+  "release": "ポリリズム",
+  "sourceArticle": "ポリリズム (Perfumeの曲)"
+ },
+ {
+  "id": "fa4cc812b2",
+  "title": "SEVENTH HEAVEN",
+  "durationSec": 284,
+  "release": "ポリリズム",
+  "sourceArticle": "ポリリズム (Perfumeの曲)"
+ },
+ {
+  "id": "3f2c17d285",
+  "title": "ポリリズム -extra short edit-",
+  "durationSec": 220,
+  "release": "ポリリズム",
+  "sourceArticle": "ポリリズム (Perfumeの曲)"
+ },
+ {
+  "id": "f4595dc228",
+  "title": "Baby cruising Love",
+  "durationSec": 282,
+  "release": "Baby cruising Love/マカロニ",
+  "sourceArticle": "Baby cruising Love/マカロニ"
+ },
+ {
+  "id": "598b511f23",
+  "title": "マカロニ",
+  "durationSec": 280,
+  "release": "Baby cruising Love/マカロニ",
+  "sourceArticle": "Baby cruising Love/マカロニ"
+ },
+ {
+  "id": "86326fc642",
+  "title": "ポリリズム",
+  "durationSec": 249,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "10cd2cf612",
+  "title": "plastic smile",
+  "durationSec": 276,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "fd562cb8f2",
+  "title": "GAME",
+  "durationSec": 306,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "dd4d5e3284",
+  "title": "Baby cruising Love",
+  "durationSec": 281,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "4f9d2f95fc",
+  "title": "マカロニ",
+  "durationSec": 279,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "53c21fa21d",
+  "title": "セラミックガール",
+  "durationSec": 274,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "59fb7a1c24",
+  "title": "Take me Take me",
+  "durationSec": 328,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "7e5d23e25c",
+  "title": "シークレットシークレット",
+  "durationSec": 297,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "220089962c",
+  "title": "Butterfly",
+  "durationSec": 341,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "31305b3f4d",
+  "title": "Twinkle Snow Powdery Snow",
+  "durationSec": 229,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "6526c3b5f2",
+  "title": "Puppy love",
+  "durationSec": 272,
+  "release": "GAME",
+  "sourceArticle": "GAME (Perfumeのアルバム)"
+ },
+ {
+  "id": "7c9ad8a70a",
+  "title": "love the world",
+  "durationSec": 275,
+  "release": "love the world",
+  "sourceArticle": "Love the world"
+ },
+ {
+  "id": "b3179a038b",
+  "title": "edge",
+  "durationSec": 390,
+  "release": "love the world",
+  "sourceArticle": "Love the world"
+ },
+ {
+  "id": "7648b78317",
+  "title": "edge -extended mix-",
+  "durationSec": 520,
+  "release": "love the world",
+  "sourceArticle": "Love the world"
+ },
+ {
+  "id": "88389f4060",
+  "title": "Dream Fighter",
+  "durationSec": 294,
+  "release": "Dream Fighter",
+  "sourceArticle": "Dream Fighter"
+ },
+ {
+  "id": "bea8cb9e30",
+  "title": "願い",
+  "durationSec": 288,
+  "release": "Dream Fighter",
+  "sourceArticle": "Dream Fighter"
+ },
+ {
+  "id": "2a93a554e1",
+  "title": "ワンルーム・ディスコ",
+  "durationSec": 306,
+  "release": "ワンルーム・ディスコ",
+  "sourceArticle": "ワンルーム・ディスコ"
+ },
+ {
+  "id": "08b08ac38d",
+  "title": "23:30",
+  "durationSec": 317,
+  "release": "ワンルーム・ディスコ",
+  "sourceArticle": "ワンルーム・ディスコ"
+ },
+ {
+  "id": "a9cdb7723d",
+  "title": "Take off",
+  "durationSec": 49,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "3fcf21feab",
+  "title": "love the world",
+  "durationSec": 272,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "14c72a4da2",
+  "title": "Dream Fighter",
+  "durationSec": 293,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "be51da3c6c",
+  "title": "edge (⊿-mix)",
+  "durationSec": 523,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "7da71f69ed",
+  "title": "NIGHT FLIGHT",
+  "durationSec": 321,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "7e9b78a75f",
+  "title": "Kiss and Music",
+  "durationSec": 155,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "7710ea9700",
+  "title": "Zero Gravity",
+  "durationSec": 294,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "6c8bf4fc09",
+  "title": "I still love U",
+  "durationSec": 273,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "504b09ef1d",
+  "title": "The best thing",
+  "durationSec": 263,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "f524799698",
+  "title": "Speed of Sound",
+  "durationSec": 239,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "1031c67b5b",
+  "title": "ワンルーム・ディスコ",
+  "durationSec": 309,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "ea78c20616",
+  "title": "願い (Album-mix)",
+  "durationSec": 298,
+  "release": "⊿",
+  "sourceArticle": "⊿ (アルバム)"
+ },
+ {
+  "id": "17aabe427f",
+  "title": "不自然なガール",
+  "durationSec": 239,
+  "release": "不自然なガール/ナチュラルに恋して",
+  "sourceArticle": "不自然なガール/ナチュラルに恋して"
+ },
+ {
+  "id": "fd4237d159",
+  "title": "ナチュラルに恋して",
+  "durationSec": 188,
+  "release": "不自然なガール/ナチュラルに恋して",
+  "sourceArticle": "不自然なガール/ナチュラルに恋して"
+ },
+ {
+  "id": "156fb84e43",
+  "title": "VOICE",
+  "durationSec": 253,
+  "release": "VOICE",
+  "sourceArticle": "VOICE (Perfumeの曲)"
+ },
+ {
+  "id": "10dfe14841",
+  "title": "575",
+  "durationSec": 267,
+  "release": "VOICE",
+  "sourceArticle": "VOICE (Perfumeの曲)"
+ },
+ {
+  "id": "c4886204b2",
+  "title": "ねぇ",
+  "durationSec": 266,
+  "release": "ねぇ",
+  "sourceArticle": "ねぇ (Perfumeの曲)"
+ },
+ {
+  "id": "0ff85b41b6",
+  "title": "FAKE IT",
+  "durationSec": 250,
+  "release": "ねぇ",
+  "sourceArticle": "ねぇ (Perfumeの曲)"
+ },
+ {
+  "id": "2fe3e9d40b",
+  "title": "レーザービーム",
+  "durationSec": 210,
+  "release": "レーザービーム/微かなカオリ",
+  "sourceArticle": "レーザービーム/微かなカオリ"
+ },
+ {
+  "id": "572ed43cb8",
+  "title": "微かなカオリ",
+  "durationSec": 289,
+  "release": "レーザービーム/微かなカオリ",
+  "sourceArticle": "レーザービーム/微かなカオリ"
+ },
+ {
+  "id": "95655eb8de",
+  "title": "スパイス",
+  "durationSec": 233,
+  "release": "スパイス",
+  "sourceArticle": "スパイス (Perfumeの曲)"
+ },
+ {
+  "id": "912142fe8f",
+  "title": "GLITTER",
+  "durationSec": 310,
+  "release": "スパイス",
+  "sourceArticle": "スパイス (Perfumeの曲)"
+ },
+ {
+  "id": "ab9522d599",
+  "title": "The Opening",
+  "durationSec": 72,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "f46a5e7f3d",
+  "title": "レーザービーム (Album-mix)",
+  "durationSec": 190,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "25c89c2433",
+  "title": "GLITTER (Album-mix)",
+  "durationSec": 340,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "991b958aff",
+  "title": "MY COLOR",
+  "durationSec": 304,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "0112190764",
+  "title": "時の針",
+  "durationSec": 150,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "80fe56c18a",
+  "title": "ねぇ",
+  "durationSec": 267,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "f9942ee7bd",
+  "title": "575",
+  "durationSec": 264,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "0ea28c4c01",
+  "title": "心のスポーツ",
+  "durationSec": 248,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "6ab3c01155",
+  "title": "Have a Stroll",
+  "durationSec": 276,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "e72930ccb6",
+  "title": "スパイス",
+  "durationSec": 232,
+  "release": "JPN",
+  "sourceArticle": "JPN (アルバム)"
+ },
+ {
+  "id": "33c7ce6635",
+  "title": "Spring of Life",
+  "durationSec": 229,
+  "release": "Spring of Life",
+  "sourceArticle": "Spring of Life"
+ },
+ {
+  "id": "1d5d0863bc",
+  "title": "コミュニケーション",
+  "durationSec": 236,
+  "release": "Spring of Life",
+  "sourceArticle": "Spring of Life"
+ },
+ {
+  "id": "ac7a3fc19a",
+  "title": "Spending all my time",
+  "durationSec": 235,
+  "release": "Spending all my time",
+  "sourceArticle": "Spending all my time"
+ },
+ {
+  "id": "456b7963ce",
+  "title": "ポイント",
+  "durationSec": 228,
+  "release": "Spending all my time",
+  "sourceArticle": "Spending all my time"
+ },
+ {
+  "id": "64ec2e5050",
+  "title": "Hurly Burly",
+  "durationSec": 314,
+  "release": "Spending all my time",
+  "sourceArticle": "Spending all my time"
+ },
+ {
+  "id": "730584eaf0",
+  "title": "love the world",
+  "durationSec": 273,
+  "release": "Perfume Global Compilation \"LOVE THE WORLD\"",
+  "sourceArticle": "Perfume Global Compilation \"LOVE THE WORLD\""
+ },
+ {
+  "id": "baf87b7154",
+  "title": "チョコレイト・ディスコ (2012-Mix)",
+  "durationSec": 295,
+  "release": "Perfume Global Compilation \"LOVE THE WORLD\"",
+  "sourceArticle": "Perfume Global Compilation \"LOVE THE WORLD\""
+ },
+ {
+  "id": "84a8616a23",
+  "title": "NIGHT FLIGHT",
+  "durationSec": 319,
+  "release": "Perfume Global Compilation \"LOVE THE WORLD\"",
+  "sourceArticle": "Perfume Global Compilation \"LOVE THE WORLD\""
+ },
+ {
+  "id": "c776fbb1ed",
+  "title": "Butterfly",
+  "durationSec": 342,
+  "release": "Perfume Global Compilation \"LOVE THE WORLD\"",
+  "sourceArticle": "Perfume Global Compilation \"LOVE THE WORLD\""
+ },
+ {
+  "id": "442a6ab76a",
+  "title": "GLITTER",
+  "durationSec": 305,
+  "release": "Perfume Global Compilation \"LOVE THE WORLD\"",
+  "sourceArticle": "Perfume Global Compilation \"LOVE THE WORLD\""
+ },
+ {
+  "id": "447e1006c9",
+  "title": "MY COLOR (LTW-Mix)",
+  "durationSec": 316,
+  "release": "Perfume Global Compilation \"LOVE THE WORLD\"",
+  "sourceArticle": "Perfume Global Compilation \"LOVE THE WORLD\""
+ },
+ {
+  "id": "3ab5237594",
+  "title": "未来のミュージアム",
+  "durationSec": 202,
+  "release": "未来のミュージアム",
+  "sourceArticle": "未来のミュージアム"
+ },
+ {
+  "id": "4e2aa571f8",
+  "title": "だいじょばない",
+  "durationSec": 185,
+  "release": "未来のミュージアム",
+  "sourceArticle": "未来のミュージアム"
+ },
+ {
+  "id": "cc082b5de4",
+  "title": "Magic of Love",
+  "durationSec": 220,
+  "release": "Magic of Love",
+  "sourceArticle": "Magic of Love (Perfumeの曲)"
+ },
+ {
+  "id": "384ae99ca3",
+  "title": "Handy Man",
+  "durationSec": 248,
+  "release": "Magic of Love",
+  "sourceArticle": "Magic of Love (Perfumeの曲)"
+ },
+ {
+  "id": "8b1fa1f9d0",
+  "title": "Enter the Sphere",
+  "durationSec": 215,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "75b813c62f",
+  "title": "Spring of Life (Album-mix)",
+  "durationSec": 359,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "28e1a8fd29",
+  "title": "Magic of Love (Album-mix)",
+  "durationSec": 256,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "e3c22834ec",
+  "title": "Clockwork",
+  "durationSec": 272,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "531e2bb3b5",
+  "title": "1mm",
+  "durationSec": 257,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "88b4d11931",
+  "title": "未来のミュージアム",
+  "durationSec": 200,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "5ab3a5c82e",
+  "title": "Party Maker",
+  "durationSec": 441,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "526b2fc71e",
+  "title": "ふりかえるといるよ",
+  "durationSec": 375,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "caceaf6641",
+  "title": "ポイント",
+  "durationSec": 227,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "82d46de6f8",
+  "title": "だいじょばない",
+  "durationSec": 183,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "0df25b3dab",
+  "title": "Handy Man",
+  "durationSec": 245,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "952986c0d9",
+  "title": "Sleeping Beauty",
+  "durationSec": 292,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "19cd680f4c",
+  "title": "Spending all my time (Album-mix)",
+  "durationSec": 241,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "37fefd47c3",
+  "title": "Dream Land",
+  "durationSec": 317,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "3910694023",
+  "title": "Spending all my time (Radio mix)",
+  "durationSec": 181,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "fdc57ca9b8",
+  "title": "Spending all my time (DV & LM remix)",
+  "durationSec": 276,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "bed0c9a11b",
+  "title": "Enter the Sphere",
+  "durationSec": 216,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "9bb9905d03",
+  "title": "ポイント",
+  "durationSec": 229,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "458521e739",
+  "title": "だいじょばない",
+  "durationSec": 186,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "36bccd7156",
+  "title": "Handy Man",
+  "durationSec": 247,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "dce15b11f9",
+  "title": "Sleeping Beauty",
+  "durationSec": 291,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "5219a07ad4",
+  "title": "Spending all my time (Album-mix)",
+  "durationSec": 242,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "712f006167",
+  "title": "Dream Land",
+  "durationSec": 314,
+  "release": "LEVEL3",
+  "sourceArticle": "LEVEL3"
+ },
+ {
+  "id": "ceca480bcb",
+  "title": "Sweet Refrain",
+  "durationSec": 296,
+  "release": "Sweet Refrain",
+  "sourceArticle": "Sweet Refrain"
+ },
+ {
+  "id": "654d115f83",
+  "title": "恋は前傾姿勢",
+  "durationSec": 254,
+  "release": "Sweet Refrain",
+  "sourceArticle": "Sweet Refrain"
+ },
+ {
+  "id": "a722fab879",
+  "title": "Cling Cling",
+  "durationSec": 253,
+  "release": "Cling Cling",
+  "sourceArticle": "Cling Cling"
+ },
+ {
+  "id": "b4a7e6a787",
+  "title": "Hold Your Hand",
+  "durationSec": 215,
+  "release": "Cling Cling",
+  "sourceArticle": "Cling Cling"
+ },
+ {
+  "id": "62bf887a99",
+  "title": "DISPLAY",
+  "durationSec": 229,
+  "release": "Cling Cling",
+  "sourceArticle": "Cling Cling"
+ },
+ {
+  "id": "42aa8ac201",
+  "title": "いじわるなハロー",
+  "durationSec": 247,
+  "release": "Cling Cling",
+  "sourceArticle": "Cling Cling"
+ },
+ {
+  "id": "7fe2337785",
+  "title": "Relax In The City",
+  "durationSec": 252,
+  "release": "Relax In The City/Pick Me Up",
+  "sourceArticle": "Relax In The City/Pick Me Up"
+ },
+ {
+  "id": "2da530e504",
+  "title": "Pick Me Up",
+  "durationSec": 231,
+  "release": "Relax In The City/Pick Me Up",
+  "sourceArticle": "Relax In The City/Pick Me Up"
+ },
+ {
+  "id": "e0431926db",
+  "title": "透明人間",
+  "durationSec": 219,
+  "release": "Relax In The City/Pick Me Up",
+  "sourceArticle": "Relax In The City/Pick Me Up"
+ },
+ {
+  "id": "39c6ed9e35",
+  "title": "STAR TRAIN",
+  "durationSec": 274,
+  "release": "STAR TRAIN",
+  "sourceArticle": "STAR TRAIN"
+ },
+ {
+  "id": "06601d994a",
+  "title": "TOKIMEKI LIGHTS",
+  "durationSec": 266,
+  "release": "STAR TRAIN",
+  "sourceArticle": "STAR TRAIN"
+ },
+ {
+  "id": "c172d0fd3e",
+  "title": "イミテーションワールド",
+  "durationSec": 312,
+  "release": "STAR TRAIN",
+  "sourceArticle": "STAR TRAIN"
+ },
+ {
+  "id": "59925a7fde",
+  "title": "Navigate",
+  "durationSec": 78,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "446a31fc88",
+  "title": "Cosmic Explorer",
+  "durationSec": 322,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "8121ff5453",
+  "title": "Miracle Worker",
+  "durationSec": 219,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "d682a24063",
+  "title": "Next Stage with YOU",
+  "durationSec": 279,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "28578e3689",
+  "title": "STORY",
+  "durationSec": 344,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "c16defece8",
+  "title": "FLASH (Album-mix)",
+  "durationSec": 275,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "f784ef625e",
+  "title": "Sweet Refrain (Album-mix)",
+  "durationSec": 281,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "f4bf1c2c97",
+  "title": "Baby Face",
+  "durationSec": 240,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "bda33394eb",
+  "title": "TOKIMEKI LIGHTS (Album-mix)",
+  "durationSec": 263,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "2f3f4ecea4",
+  "title": "STAR TRAIN (Album-mix)",
+  "durationSec": 280,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "ca3ffab270",
+  "title": "Cling Cling (Album-mix)",
+  "durationSec": 231,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "d8751c030e",
+  "title": "FLASH",
+  "durationSec": 277,
+  "release": "COSMIC EXPLORER",
+  "sourceArticle": "COSMIC EXPLORER"
+ },
+ {
+  "id": "f7d987f41e",
+  "title": "TOKYO GIRL",
+  "durationSec": 267,
+  "release": "TOKYO GIRL",
+  "sourceArticle": "TOKYO GIRL (Perfumeの曲)"
+ },
+ {
+  "id": "1b0b5b641e",
+  "title": "宝石の雨",
+  "durationSec": 238,
+  "release": "TOKYO GIRL",
+  "sourceArticle": "TOKYO GIRL (Perfumeの曲)"
+ },
+ {
+  "id": "4fcba28f3c",
+  "title": "If you wanna",
+  "durationSec": 163,
+  "release": "If you wanna",
+  "sourceArticle": "If you wanna"
+ },
+ {
+  "id": "d988f22efb",
+  "title": "Everyday",
+  "durationSec": 226,
+  "release": "If you wanna",
+  "sourceArticle": "If you wanna"
+ },
+ {
+  "id": "04aaa6db31",
+  "title": "無限未来",
+  "durationSec": 223,
+  "release": "無限未来",
+  "sourceArticle": "無限未来"
+ },
+ {
+  "id": "96aef5fcd2",
+  "title": "FUSION",
+  "durationSec": 272,
+  "release": "無限未来",
+  "sourceArticle": "無限未来"
+ },
+ {
+  "id": "af863a4fa9",
+  "title": "Start-Up",
+  "durationSec": 54,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "a55c69fa2e",
+  "title": "Future Pop",
+  "durationSec": 182,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "ceb7b3ab8b",
+  "title": "Tiny Baby",
+  "durationSec": 221,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "9103f6a590",
+  "title": "Let Me Know",
+  "durationSec": 205,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "7596ab19b0",
+  "title": "超来輪",
+  "durationSec": 194,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "5eecb9609c",
+  "title": "無限未来",
+  "durationSec": 221,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "4a83368676",
+  "title": "宝石の雨",
+  "durationSec": 237,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "f8605d9ea0",
+  "title": "天空",
+  "durationSec": 279,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "97a584a8fb",
+  "title": "Everyday",
+  "durationSec": 227,
+  "release": "Future Pop",
+  "sourceArticle": "Future Pop"
+ },
+ {
+  "id": "9f39a66b4e",
+  "title": "Challenger",
+  "durationSec": 334,
+  "release": "Perfume The Best “P Cubed”",
+  "sourceArticle": "Perfume The Best “P Cubed”"
+ },
+ {
+  "id": "88e6e64147",
+  "title": "エレクトロ・ワールド",
+  "durationSec": 235,
+  "release": "Perfume The Best “P Cubed”",
+  "sourceArticle": "Perfume The Best “P Cubed”"
+ },
+ {
+  "id": "34b896bbc7",
+  "title": "マカロニ",
+  "durationSec": 277,
+  "release": "Perfume The Best “P Cubed”",
+  "sourceArticle": "Perfume The Best “P Cubed”"
+ },
+ {
+  "id": "bd83c297ed",
+  "title": "GAME",
+  "durationSec": 307,
+  "release": "Perfume The Best “P Cubed”",
+  "sourceArticle": "Perfume The Best “P Cubed”"
+ },
+ {
+  "id": "9159fa3c72",
+  "title": "love the world",
+  "durationSec": 278,
+  "release": "Perfume The Best “P Cubed”",
+  "sourceArticle": "Perfume The Best “P Cubed”"
+ },
+ {
+  "id": "7b98a96d60",
+  "title": "Magic of Love (Album-mix)",
+  "durationSec": 255,
+  "release": "Perfume The Best “P Cubed”",
+  "sourceArticle": "Perfume The Best “P Cubed”"
+ },
+ {
+  "id": "4a3f456ef8",
+  "title": "FUSION",
+  "durationSec": 273,
+  "release": "Perfume The Best “P Cubed”",
+  "sourceArticle": "Perfume The Best “P Cubed”"
+ },
+ {
+  "id": "4f5688964a",
+  "title": "ナナナナナイロ",
+  "durationSec": 288,
+  "release": "Perfume The Best “P Cubed”",
+  "sourceArticle": "Perfume The Best “P Cubed”"
+ },
+ {
+  "id": "8f55fa2f69",
+  "title": "Time Warp",
+  "durationSec": 175,
+  "release": "Time Warp",
+  "sourceArticle": "Time Warp"
+ },
+ {
+  "id": "6741cbda74",
+  "title": "再生",
+  "durationSec": 284,
+  "release": "Time Warp",
+  "sourceArticle": "Time Warp"
+ },
+ {
+  "id": "d0f88c5fe5",
+  "title": "ポリゴンウェイヴ（Original Mix）",
+  "durationSec": 273,
+  "release": "ポリゴンウェイヴ EP",
+  "sourceArticle": "ポリゴンウェイヴ EP"
+ },
+ {
+  "id": "891521df96",
+  "title": "ポリゴンウェイヴ",
+  "durationSec": 185,
+  "release": "ポリゴンウェイヴ EP",
+  "sourceArticle": "ポリゴンウェイヴ EP"
+ },
+ {
+  "id": "0cabc3f864",
+  "title": "ポリゴンウェイヴ（Remix）",
+  "durationSec": 383,
+  "release": "ポリゴンウェイヴ EP",
+  "sourceArticle": "ポリゴンウェイヴ EP"
+ },
+ {
+  "id": "242753fb2a",
+  "title": "∞ループ",
+  "durationSec": 257,
+  "release": "ポリゴンウェイヴ EP",
+  "sourceArticle": "ポリゴンウェイヴ EP"
+ },
+ {
+  "id": "c6076fca6f",
+  "title": "アンドロイド&",
+  "durationSec": 253,
+  "release": "ポリゴンウェイヴ EP",
+  "sourceArticle": "ポリゴンウェイヴ EP"
+ },
+ {
+  "id": "489bbad0ab",
+  "title": "システムリブート (Perfume LIVE 2021 [polygon wave] intro)",
+  "durationSec": 345,
+  "release": "ポリゴンウェイヴ EP",
+  "sourceArticle": "ポリゴンウェイヴ EP"
+ },
+ {
+  "id": "538f0b4664",
+  "title": "Flow",
+  "durationSec": 184,
+  "release": "Flow",
+  "sourceArticle": "Flow (Perfumeの曲)"
+ },
+ {
+  "id": "b9af716243",
+  "title": "マワルカガミ（polygon wave live ver.）",
+  "durationSec": 220,
+  "release": "Flow",
+  "sourceArticle": "Flow (Perfumeの曲)"
+ },
+ {
+  "id": "13971e289d",
+  "title": "さよならプラスティックワールド",
+  "durationSec": 236,
+  "release": "さよならプラスティックワールド",
+  "sourceArticle": "さよならプラスティックワールド"
+ },
+ {
+  "id": "e5d67596ad",
+  "title": "Plasma",
+  "durationSec": 124,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "c5975858ae",
+  "title": "Time Warp",
+  "durationSec": 172,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "dadbed742f",
+  "title": "ポリゴンウェイヴ",
+  "durationSec": 273,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "dbe5877f6e",
+  "title": "再生",
+  "durationSec": 283,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "9a7ee6520d",
+  "title": "Spinning World",
+  "durationSec": 240,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "a35556f711",
+  "title": "マワルカガミ",
+  "durationSec": 233,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "aa9eb92443",
+  "title": "∞ループ",
+  "durationSec": 258,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "606d101732",
+  "title": "Drive'n The Rain",
+  "durationSec": 376,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "26d225cebd",
+  "title": "ハテナビト",
+  "durationSec": 177,
+  "release": "PLASMA",
+  "sourceArticle": "PLASMA (Perfumeのアルバム)"
+ },
+ {
+  "id": "6332997217",
+  "title": "Moon",
+  "durationSec": 181,
+  "release": "Moon",
+  "sourceArticle": "Moon (Perfumeの曲)"
+ },
+ {
+  "id": "b84ac18603",
+  "title": "ラヴ・クラウド",
+  "durationSec": 219,
+  "release": "Moon",
+  "sourceArticle": "Moon (Perfumeの曲)"
+ },
+ {
+  "id": "9afc477a0e",
+  "title": "すみっコディスコ",
+  "durationSec": 207,
+  "release": "すみっコディスコ",
+  "sourceArticle": "すみっコディスコ"
+ },
+ {
+  "id": "2b367b41ba",
+  "title": "すみっコディスコ",
+  "durationSec": 235,
+  "release": "すみっコディスコ",
+  "sourceArticle": "すみっコディスコ"
+ },
+ {
+  "id": "fd8ddfc307",
+  "title": "The Light",
+  "durationSec": 215,
+  "release": "The Light",
+  "sourceArticle": "The Light (Perfumeの曲)"
+ },
+ {
+  "id": "404a5ea0e0",
+  "title": "The Light",
+  "durationSec": 214,
+  "release": "ネビュラロマンス 前篇",
+  "sourceArticle": "ネビュラロマンス 前篇"
+ },
+ {
+  "id": "fffcf05056",
+  "title": "Cosmic Treat",
+  "durationSec": 187,
+  "release": "ネビュラロマンス 前篇",
+  "sourceArticle": "ネビュラロマンス 前篇"
+ },
+ {
+  "id": "39c5775757",
+  "title": "Starlight Dreams",
+  "durationSec": 212,
+  "release": "ネビュラロマンス 前篇",
+  "sourceArticle": "ネビュラロマンス 前篇"
+ },
+ {
+  "id": "df4ec3f9a5",
+  "title": "IMA IMA IMA",
+  "durationSec": 215,
+  "release": "ネビュラロマンス 前篇",
+  "sourceArticle": "ネビュラロマンス 前篇"
+ },
+ {
+  "id": "38d006e57a",
+  "title": "Morning Cruising",
+  "durationSec": 186,
+  "release": "ネビュラロマンス 前篇",
+  "sourceArticle": "ネビュラロマンス 前篇"
+ },
+ {
+  "id": "08fcaf07c8",
+  "title": "タイムカプセル",
+  "durationSec": 214,
+  "release": "ネビュラロマンス 前篇",
+  "sourceArticle": "ネビュラロマンス 前篇"
+ },
+ {
+  "id": "732628acfb",
+  "title": "時空花",
+  "durationSec": 248,
+  "release": "ネビュラロマンス 前篇",
+  "sourceArticle": "ネビュラロマンス 前篇"
+ },
+ {
+  "id": "eb47c372ef",
+  "title": "メビウス",
+  "durationSec": 223,
+  "release": "ネビュラロマンス 前篇",
+  "sourceArticle": "ネビュラロマンス 前篇"
+ },
+ {
+  "id": "c00b420d13",
+  "title": "Human Factory - 電造人間 -",
+  "durationSec": 244,
+  "release": "Human Factory - 電造人間 -",
+  "sourceArticle": "Human Factory - 電造人間 -"
+ },
+ {
+  "id": "3f93e26c23",
+  "title": "Cipher",
+  "durationSec": 123,
+  "release": "ネビュラロマンス 後篇",
+  "sourceArticle": "ネビュラロマンス 後篇"
+ },
+ {
+  "id": "1bbd830158",
+  "title": "再起動世界",
+  "durationSec": 206,
+  "release": "ネビュラロマンス 後篇",
+  "sourceArticle": "ネビュラロマンス 後篇"
+ },
+ {
+  "id": "fe21ea1e2e",
+  "title": "ネビュラロマンス",
+  "durationSec": 240,
+  "release": "ネビュラロマンス 後篇",
+  "sourceArticle": "ネビュラロマンス 後篇"
+ },
+ {
+  "id": "d02d31ab37",
+  "title": "ソーラ・ウィンド",
+  "durationSec": 255,
+  "release": "ネビュラロマンス 後篇",
+  "sourceArticle": "ネビュラロマンス 後篇"
+ },
+ {
+  "id": "bdb83945e9",
+  "title": "Virtual Fantasy",
+  "durationSec": 222,
+  "release": "ネビュラロマンス 後篇",
+  "sourceArticle": "ネビュラロマンス 後篇"
+ },
+ {
+  "id": "27ebd8b314",
+  "title": "Teenage Dreams",
+  "durationSec": 263,
+  "release": "ネビュラロマンス 後篇",
+  "sourceArticle": "ネビュラロマンス 後篇"
+ },
+ {
+  "id": "76d16714f5",
+  "title": "exit",
+  "durationSec": 305,
+  "release": "ネビュラロマンス 後篇",
+  "sourceArticle": "ネビュラロマンス 後篇"
+ },
+ {
+  "id": "4912d2fa41",
+  "title": "巡ループ",
+  "durationSec": 252,
+  "release": "ネビュラロマンス 後篇",
+  "sourceArticle": "ネビュラロマンス 後篇"
+ }
+]
