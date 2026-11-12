@@ -21,7 +21,7 @@ export async function ensureFonts(text: string): Promise<void> {
 }
 
 export function modelText(model: JacketModel): string {
-  return [model.title, model.total, model.date, ...model.tracks.map((t) => t.title), 'TRACKS TOTAL DATE NOT FOR SALE UNOFFICIAL FAN MADE'].join('');
+  return [model.title, model.subtitle, model.total, model.date, ...model.tracks.map((t) => t.title), 'TRACKS TOTAL DATE NOT FOR SALE UNOFFICIAL FAN MADE'].join('');
 }
 
 /** フォントを待ってから canvas 全体を描き直す。描いた文字の記録を返す。 */

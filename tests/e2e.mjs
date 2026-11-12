@@ -50,13 +50,17 @@ try {
     check(`${label}: 全 ${boxes.length} 行がラベルの内側`, boxes.length >= 42 && over.length === 0, over.map((b) => b.role).join(','));
     return boxes;
   };
-  await verifyBoxes('最長13曲');
+  check('3行目に COLD SLEEP が入る', (await verifyBoxes('最長13曲')).find((b) => b.role === 'subtitle')?.text === 'COLD SLEEP');
 
   await page.fill('#name', 'あいうえおかきくけこさしすせそたちつてとなにぬね');
   const boxes = await verifyBoxes('最長の名前');
   check('タイトルが名前に連動', boxes.find((b) => b.role === 'title2')?.text.includes('Selected by あいうえお'));
   await page.fill('#title', 'W'.repeat(60));
-  await verifyBoxes('最長のタイトル(60字)');
+  await page.fill('#subtitle', 'あ'.repeat(30));
+  await verifyBoxes('最長のタイトル(60字)とサブタイトル(30字)');
+  await page.fill('#subtitle', '');
+  check('サブタイトルを空にすると行が消える', !(await verifyBoxes('サブタイトルなし')).some((b) => b.role === 'subtitle'));
+  await page.fill('#subtitle', 'COLD SLEEP');
   await page.click('#title-reset');
   await page.fill('#name', 'TESTER');
   await verifyBoxes('通常の名前');
@@ -133,7 +137,7 @@ try {
   await page.click('#reset');
   await page.waitForFunction(() => window.__jacket.rendered());
   const cleared = async () => (await page.locator('#selected-list li').count()) === 0 && (await page.inputValue('#name')) === ''
-    && (await page.inputValue('#title')) === 'FAVORITES (Selected by 〇〇)' && (await page.inputValue('#search')) === '';
+    && (await page.inputValue('#title')) === 'FAVORITES (Selected by 〇〇)' && (await page.inputValue('#search')) === '' && (await page.inputValue('#subtitle')) === 'COLD SLEEP';
   const c1 = await cleared();
   await page.reload();
   await page.waitForFunction(() => window.__jacket?.rendered());

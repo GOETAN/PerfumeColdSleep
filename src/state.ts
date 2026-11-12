@@ -10,14 +10,18 @@ export interface State {
   title: string;
   /** タイトルを手で書き換えたか。false の間は名前に合わせて自動で作る */
   titleEdited: boolean;
+  /** タイトルの下の3行目 */
+  subtitle: string;
 }
+
+export const DEFAULT_SUBTITLE = 'COLD SLEEP';
 
 export function defaultTitle(name: string): string {
   return `FAVORITES (Selected by ${name.trim() || '〇〇'})`;
 }
 
 export function loadState(): State {
-  const state: State = { selected: [], name: '', title: defaultTitle(''), titleEdited: false };
+  const state: State = { selected: [], name: '', title: defaultTitle(''), titleEdited: false, subtitle: DEFAULT_SUBTITLE };
   try {
     const saved = JSON.parse(localStorage.getItem(KEY) ?? 'null');
     if (saved && typeof saved === 'object') {
@@ -27,6 +31,7 @@ export function loadState(): State {
         state.selected = [...new Set<string>(ids)].slice(0, REQUIRED);
       }
       if (typeof saved.name === 'string') state.name = saved.name;
+      if (typeof saved.subtitle === 'string') state.subtitle = saved.subtitle;
       state.titleEdited = saved.titleEdited === true;
       state.title = state.titleEdited && typeof saved.title === 'string' ? saved.title : defaultTitle(state.name);
     }

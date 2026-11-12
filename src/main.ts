@@ -5,7 +5,7 @@ import Sortable from 'sortablejs';
 import { renderJacket } from './jacket/render';
 import type { JacketModel, TextBox } from './jacket/label';
 import { formatDuration, matches, normalize, songById, songs } from './songs';
-import { REQUIRED, defaultTitle, loadState, saveState, totalOf } from './state';
+import { DEFAULT_SUBTITLE, REQUIRED, defaultTitle, loadState, saveState, totalOf } from './state';
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const el = {
@@ -20,6 +20,7 @@ const el = {
   name: $<HTMLInputElement>('name'),
   title: $<HTMLInputElement>('title'),
   titleReset: $<HTMLButtonElement>('title-reset'),
+  subtitle: $<HTMLInputElement>('subtitle'),
   total: $('total'),
   reset: $<HTMLButtonElement>('reset'),
   canvas: $<HTMLCanvasElement>('jacket'),
@@ -43,6 +44,7 @@ function buildModel(): JacketModel {
   const total = totalOf(state.selected);
   return {
     title: state.title.trim() || defaultTitle(state.name),
+    subtitle: state.subtitle.trim(),
     tracks: state.selected.map((id) => {
       const s = songById.get(id)!;
       return { id: s.id, title: s.title, durationSec: s.durationSec };
@@ -183,6 +185,8 @@ el.reset.addEventListener('click', () => {
   state.titleEdited = false;
   state.title = defaultTitle('');
   el.name.value = '';
+  state.subtitle = DEFAULT_SUBTITLE;
+  el.subtitle.value = state.subtitle;
   el.title.value = state.title;
   el.search.value = '';
   applySearch();
@@ -202,6 +206,10 @@ el.name.addEventListener('input', () => {
 el.title.addEventListener('input', () => {
   state.title = el.title.value;
   state.titleEdited = state.title !== defaultTitle(state.name);
+  update();
+});
+el.subtitle.addEventListener('input', () => {
+  state.subtitle = el.subtitle.value;
   update();
 });
 el.titleReset.addEventListener('click', () => {
@@ -301,6 +309,7 @@ if (typeof navigator.canShare === 'function' && navigator.canShare({ files: [pro
 // ---- 起動 -----------------------------------------------------------------
 el.name.value = state.name;
 el.title.value = state.title;
+el.subtitle.value = state.subtitle;
 buildSongList();
 el.search.addEventListener('input', applySearch);
 update();

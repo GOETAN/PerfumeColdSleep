@@ -7,6 +7,8 @@ export const WEIGHTS = [500, 700] as const;
 export interface JacketModel {
   /** 改行を含まないタイトル。" (" の前で2行に分ける */
   title: string;
+  /** タイトルの下に出す3行目。空なら出さない */
+  subtitle: string;
   tracks: { id: string; title: string; durationSec: number | null }[];
   /** "55min 12sec" 形式 */
   total: string;
@@ -127,17 +129,19 @@ export function drawLabel(ctx: CanvasRenderingContext2D, model: JacketModel): Te
   };
 
   // タイトル（最大2行）
-  const TITLE_TOP = 232;
-  const TITLE_SIZE = 78;
-  const TITLE_PITCH = 94;
+  const TITLE_TOP = 226;
+  const TITLE_SIZE = 72;
+  const TITLE_PITCH = 86;
   const cut = model.title.indexOf(' (');
   const titleLines = cut > 0 ? [model.title.slice(0, cut), model.title.slice(cut + 1)] : [model.title];
-  titleLines.forEach((t, i) => line(`title${i + 1}`, t.toUpperCase() === t ? t : t, TEXT_LEFT, TITLE_TOP + i * TITLE_PITCH, TITLE_SIZE, 700, 0.5));
+  titleLines.forEach((t, i) => line(`title${i + 1}`, t, TEXT_LEFT, TITLE_TOP + i * TITLE_PITCH, TITLE_SIZE, 700, 0.5));
+  // 3行目は、タイトルが1行でも常に同じ位置に置く
+  if (model.subtitle) line('subtitle', model.subtitle, TEXT_LEFT, TITLE_TOP + 2 * TITLE_PITCH, TITLE_SIZE, 700, 0.5);
 
   // 曲目 13行: 「01  4:09  曲名」
-  const LIST_TOP = 476;
-  const ROW_SIZE = 46;
-  const ROW_PITCH = 66;
+  const LIST_TOP = 528;
+  const ROW_SIZE = 43;
+  const ROW_PITCH = 60;
   ctx.font = font(500, ROW_SIZE);
   const chW = ctx.measureText('0').width;
   const titleX = TEXT_LEFT + chW * 11;
@@ -149,7 +153,7 @@ export function drawLabel(ctx: CanvasRenderingContext2D, model: JacketModel): Te
   });
 
   // フッター
-  const FOOT_TOP = 1380;
+  const FOOT_TOP = 1350;
   const FOOT_SIZE = 38;
   const FOOT_PITCH = 50;
   line('foot1', `${model.tracks.length} TRACKS  TOTAL ${model.total}`, TEXT_LEFT, FOOT_TOP, FOOT_SIZE, 500);

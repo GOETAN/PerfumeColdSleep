@@ -64,9 +64,9 @@ function crystal(ctx: CanvasRenderingContext2D, rnd: Rnd, x: number, y: number, 
 
 function drawCase(ctx: CanvasRenderingContext2D, rnd: Rnd) {
   const g = ctx.createLinearGradient(0, 0, W, H);
-  g.addColorStop(0, '#d9dcdf');
-  g.addColorStop(0.5, '#c3c7cb');
-  g.addColorStop(1, '#d4d7da');
+  g.addColorStop(0, '#c9cccf');
+  g.addColorStop(0.5, '#b4b8bc');
+  g.addColorStop(1, '#c4c7ca');
   ctx.fillStyle = g;
   ctx.fillRect(0, 0, W, H);
 
@@ -113,9 +113,9 @@ function drawDisc(ctx: CanvasRenderingContext2D) {
 
   // 青・紫・水色が回り込む虹色。conic gradient が無い環境では線形で代用する
   const stops: [number, string][] = [
-    [0.0, '#63c9cf'], [0.1, '#c6ecef'], [0.2, '#7fb4e6'], [0.32, '#b3a3e6'],
-    [0.42, '#d8d2f4'], [0.52, '#69b9dd'], [0.63, '#74d6cd'], [0.74, '#c2e6f2'],
-    [0.84, '#9a9be0'], [0.93, '#8fd3e6'], [1.0, '#63c9cf'],
+    [0.0, '#58bfc2'], [0.09, '#a9dfe2'], [0.18, '#4fb3bd'], [0.27, '#6aa6d6'],
+    [0.34, '#a9a3dc'], [0.41, '#8fc9dc'], [0.5, '#5ccabf'], [0.6, '#9fe0d6'],
+    [0.69, '#54b5c6'], [0.78, '#7f9fd8'], [0.85, '#b7b0e2'], [0.92, '#86d0d8'], [1.0, '#58bfc2'],
   ];
   const grad = typeof ctx.createConicGradient === 'function'
     ? ctx.createConicGradient(-0.7, cx, cy)
@@ -134,8 +134,8 @@ function drawDisc(ctx: CanvasRenderingContext2D) {
     ctx.fill();
   }
   const glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
-  glow.addColorStop(0, 'rgba(255,255,255,0.6)');
-  glow.addColorStop(0.3, 'rgba(255,255,255,0.18)');
+  glow.addColorStop(0, 'rgba(255,255,255,0.45)');
+  glow.addColorStop(0.3, 'rgba(255,255,255,0.1)');
   glow.addColorStop(0.85, 'rgba(255,255,255,0)');
   glow.addColorStop(1, 'rgba(30,70,120,0.18)');
   ctx.fillStyle = glow;
@@ -160,28 +160,28 @@ function drawFrost(ctx: CanvasRenderingContext2D, rnd: Rnd) {
   const onDisc = (x: number, y: number) => Math.hypot(x - DISC.cx, y - DISC.cy) < DISC.r;
 
   // 細かい点描
-  ctx.fillStyle = 'rgba(255,255,255,0.8)';
+  ctx.fillStyle = 'rgba(255,255,255,0.72)';
   ctx.beginPath();
-  for (let i = 0; i < 150000; i++) {
+  for (let i = 0; i < 520000; i++) {
     const x = rnd() * W;
     const y = rnd() * H;
     const d = density(x / W, y / H) * 0.6 + fine(x / W, y / H) * 0.4;
-    if (rnd() > d * d * d * (onDisc(x, y) ? 1.0 : 1.6)) continue;
-    const s = 1.4 + rnd() * 1.6;
+    if (rnd() > 0.1 + d * d * (onDisc(x, y) ? 0.75 : 0.95)) continue;
+    const s = 1.6 + rnd() * 1.1;
     ctx.rect(x, y, s, s);
   }
   ctx.fill();
 
   // 結晶のかたまり。盤面の上はやや控えめにして色を見せる
   let placed = 0;
-  for (let i = 0; i < 6000 && placed < 420; i++) {
+  for (let i = 0; i < 6000 && placed < 300; i++) {
     const x = rnd() * W;
     const y = rnd() * H;
     const d = density(x / W, y / H);
     const edge = Math.min(x, y, W - x, H - y) < 150 ? 0.25 : 0;
-    if (rnd() > d * d * (onDisc(x, y) ? 0.9 : 1.25) + edge) continue;
+    if (rnd() > d * d * (onDisc(x, y) ? 0.75 : 1.1) + edge) continue;
     ctx.fillStyle = `rgba(255,255,255,${0.82 + rnd() * 0.18})`;
-    crystal(ctx, rnd, x, y, 70 + rnd() * rnd() * 190);
+    crystal(ctx, rnd, x, y, 55 + rnd() * rnd() * 150);
     placed++;
   }
 }
