@@ -124,6 +124,20 @@ try {
   await page.fill('#search', 'ぽりりずむ');
   const hits = await page.$$eval('#song-list li:not([hidden]) .song-title', (els) => els.map((e) => e.textContent));
   check('ひらがなでカタカナの曲名を検索できる', hits.length > 0 && hits.length < 10 && hits.some((t) => t === 'ポリリズム'), hits.join(' / '));
+
+  // 最初からやり直す: キャンセルなら何も変わらず、OK なら全部消えてリロード後も戻らない
+  page.once('dialog', (d) => d.dismiss());
+  await page.click('#reset');
+  check('やり直し: キャンセルでは消えない', (await page.locator('#selected-list li').count()) === 13);
+  page.once('dialog', (d) => d.accept());
+  await page.click('#reset');
+  await page.waitForFunction(() => window.__jacket.rendered());
+  const cleared = async () => (await page.locator('#selected-list li').count()) === 0 && (await page.inputValue('#name')) === ''
+    && (await page.inputValue('#title')) === 'FAVORITES (Selected by 〇〇)' && (await page.inputValue('#search')) === '';
+  const c1 = await cleared();
+  await page.reload();
+  await page.waitForFunction(() => window.__jacket?.rendered());
+  check('やり直し: 全部消え、リロード後も消えたまま', c1 && (await cleared()) && (await page.locator('#download').isDisabled()));
   await page.screenshot({ path: `${OUT}/desktop.png`, fullPage: true });
   await ctx.close();
 
@@ -142,6 +156,10 @@ try {
   check('スマホ: 操作部品が 40px 以上', small === 0, `${small} 個が小さい`);
   const [md] = await Promise.all([m.waitForEvent('download'), m.tap('#download')]);
   check('スマホ: PNG をダウンロード', (await md.path()) !== null);
+  const rb = await m.locator('#reset').boundingBox();
+  await m.evaluate(() => window.scrollTo(0, 0));
+  const rb2 = await m.locator('#reset').boundingBox();
+  check('スマホ: やり直しボタンが右上に収まる', rb2.x + rb2.width <= 390 && rb2.x > 195 && rb2.y < 80 && rb.height >= 40, `x=${Math.round(rb2.x)} y=${Math.round(rb2.y)}`);
   await m.screenshot({ path: `${OUT}/mobile.png`, fullPage: true });
   await mctx.close();
 } finally {

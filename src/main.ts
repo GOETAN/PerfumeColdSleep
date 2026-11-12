@@ -21,6 +21,7 @@ const el = {
   title: $<HTMLInputElement>('title'),
   titleReset: $<HTMLButtonElement>('title-reset'),
   total: $('total'),
+  reset: $<HTMLButtonElement>('reset'),
   canvas: $<HTMLCanvasElement>('jacket'),
   canvasStatus: $('canvas-status'),
   exportHint: $('export-hint'),
@@ -172,6 +173,21 @@ el.clear.addEventListener('click', () => {
     state.selected = [];
     update();
   }
+});
+
+// 選曲・並び・名前・タイトル・検索語をすべて初期状態に戻す
+el.reset.addEventListener('click', () => {
+  if (!confirm('選んだ曲・名前・タイトルをすべて消して、最初からやり直しますか？')) return;
+  state.selected = [];
+  state.name = '';
+  state.titleEdited = false;
+  state.title = defaultTitle('');
+  el.name.value = '';
+  el.title.value = state.title;
+  el.search.value = '';
+  applySearch();
+  update();
+  window.scrollTo({ top: 0 });
 });
 
 // ---- 名前・タイトル -------------------------------------------------------
