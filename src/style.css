@@ -82,11 +82,3 @@ canvas { display: block; width: 100%; height: auto; border-radius: 8px; backgrou
 .site-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .reset { flex: none; min-height: 44px; padding: 0 14px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); font-size: 13px; font-weight: 700; cursor: pointer; }
 .reset:hover { background: #f4f7fa; }
-
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-.chip { min-height: 40px; min-width: 40px; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: var(--ink); font-size: 13px; cursor: pointer; }
-.chip[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: #fff; font-weight: 700; }
-.badge { display: inline-block; margin-right: 6px; padding: 0 6px; border-radius: 4px; font-size: 11px; font-weight: 700; line-height: 1.6; color: #fff; vertical-align: 1px; }
-.badge-single { background: #2f6fd0; }
-.badge-album { background: #7a56c2; }
-.badge-other { background: #5b6b79; }

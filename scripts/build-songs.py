@@ -11,8 +11,7 @@ MediaWiki API (action=parse, prop=wikitext) だけを使い、HTML は取得し�
 
 出力 (data/):
     manual-durations.json（入力）時間が取れなかった曲に手で与える時間
-    songs.json      [{ id, title, durationSec, release, releaseType, sourceArticle }]
-                    releaseType: single / digital-single / ep / album / best / compilation
+    songs.json      [{ id, title, durationSec, release, sourceArticle }]
     duplicates.txt  同じ曲名で収録時間が違うもの（まとめていない。人が判断する）
     missing.txt     収録時間が取れなかった曲 (durationSec: null)
     merged.txt      同じ曲名・同じ収録時間なので1件にまとめたもの
@@ -467,17 +466,8 @@ def main() -> None:
     missing = [f"{s.id}\t{s.title}\t{s.sourceArticle}\t{s.context}" for s in songs if s.durationSec is None]
 
     songs.sort(key=lambda s: (s.date or "9999", s.order))
-    # releaseType は、その曲を採用した作品（同じ曲が複数作品にあれば発売が早い方）の種別
-    kind_of = {r.order: r.kind for r in releases}
     payload = [
-        {
-            "id": s.id,
-            "title": s.title,
-            "durationSec": s.durationSec,
-            "release": s.release,
-            "releaseType": kind_of[s.order],
-            "sourceArticle": s.sourceArticle,
-        }
+        {"id": s.id, "title": s.title, "durationSec": s.durationSec, "release": s.release, "sourceArticle": s.sourceArticle}
         for s in songs
     ]
     (out / "songs.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

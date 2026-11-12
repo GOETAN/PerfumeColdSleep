@@ -5,26 +5,7 @@ export interface Song {
   title: string;
   durationSec: number | null;
   release: string;
-  releaseType: 'single' | 'digital-single' | 'ep' | 'album' | 'best' | 'compilation';
   sourceArticle: string;
-}
-
-/** 画面での大まかな分類。配信シングルはシングル、ベスト盤・コンピレーションはアルバムに含める。 */
-export type Category = 'single' | 'album' | 'other';
-export const CATEGORY_LABEL: Record<Category, string> = { single: 'シングル', album: 'アルバム', other: 'その他' };
-
-export function categoryOf(song: Song): Category {
-  switch (song.releaseType) {
-    case 'single':
-    case 'digital-single':
-      return 'single';
-    case 'album':
-    case 'best':
-    case 'compilation':
-      return 'album';
-    default:
-      return 'other';
-  }
 }
 
 export const songs = raw as Song[];
